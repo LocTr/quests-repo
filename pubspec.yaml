@@ -12,7 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   task_api:
-    path: ../task_api
+    git:
+      url: https://github.com/LocTr/task_api
+      ref: main
 
 dev_dependencies:
   flutter_test:
