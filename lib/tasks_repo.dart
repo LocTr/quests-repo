@@ -1,3 +1,3 @@
 library tasks_repo;
 
-export 'src/tasks_repo.dart';
+export 'src/tasks_repo.dart' show TasksRepo;
