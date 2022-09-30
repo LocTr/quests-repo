@@ -1,15 +1,14 @@
-import 'package:task_api/models/progress_point.dart';
-import 'package:task_api/models/task.dart';
-import 'package:task_api/progress_point_api.dart';
-import 'package:task_api/task_api.dart';
+import 'package:tasks_api/models/progress_point.dart';
+import 'package:tasks_api/models/task.dart';
+import 'package:tasks_api/tasks_api.dart';
 
 class TasksRepo {
   const TasksRepo(
-      {required TaskApi taskApi, required ProgressPointApi progressApi})
+      {required TasksApi taskApi, required ProgressPointApi progressApi})
       : _taskApi = taskApi,
         _progressApi = progressApi;
 
-  final TaskApi _taskApi;
+  final TasksApi _taskApi;
   final ProgressPointApi _progressApi;
 
   Stream<List<Task>> getTasks() => _taskApi.getTasksStream();
