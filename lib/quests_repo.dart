@@ -1,3 +1,3 @@
 library quests_repo;
 
-export 'src/quests_repo.dart' show TasksRepo;
+export 'src/quests_repo.dart' show QuestsRepo;
