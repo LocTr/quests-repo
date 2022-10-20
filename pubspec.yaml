@@ -1,5 +1,5 @@
-name: tasks_repo
-description: A new Flutter package project.
+name: quests_repo
+description: repository for quests app.
 version: 0.0.1
 homepage:
 publish_to: none
@@ -11,9 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  tasks_api:
+  quests_api:
     git:
-      url: https://github.com/LocTr/tasks-api
+      url: https://github.com/LocTr/quests-api
       ref: main
 
 dev_dependencies:

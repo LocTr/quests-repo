@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:tasks_repo/tasks_repo.dart';
+import 'package:quests_repo/quests_repo.dart';
 
 // void main() {
 //   test('adds one to input values', () {
