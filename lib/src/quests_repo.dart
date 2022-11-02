@@ -14,6 +14,5 @@ class QuestsRepo {
 
   Future<void> deleteQuest(String id) => _questsApi.deleteQuest(id);
 
-  // Future<void> deleteAll() => _questsApi.de();
-
+  Future<void> deleteAll() => _questsApi.deleteAllQuests();
 }
